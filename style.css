@@ -1,6 +1,17 @@
+
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: 1fr ;
+
+
+    
+}
+
 .zone {
     cursor:pointer;
-    display:inline-block;
+    /* display:block; */
     text-align: center;
     font-size:10em;
     border-radius:4px;
@@ -95,3 +106,14 @@
     background: linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
 }
+
+/*
+@font-face{
+    font-family: Symbola;
+    src: local("/home/Nizar4790k/Documents/CSS-GridLayout-Animals/fonts/symbola/Symbola.ttf");
+}
+
+body{
+    font-family: 'Symbola';
+}
+*/
